@@ -23,7 +23,7 @@ const NavBar = () => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div className="nav-container" data-testid="navbar">
+    <div className="nav-container" data-testid="navbar" style={{display: "none"}}>
       <Navbar color="light" light expand="md">
         <Container>
           <NavbarBrand className="logo" />
